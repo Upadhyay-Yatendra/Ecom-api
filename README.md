@@ -31,7 +31,7 @@ npm install
 <h3>Usage</h3>
 <br>Start the server using the following command:
 <br>node server.js
-<br>Open the app in a browser at http://localhost:3000
+<br>Open the app in a browser at https://ecom-api-1qfd.onrender.com
 
 <h2>Testing</h2>
 API endpoints can be tested using Postman.
