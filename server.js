@@ -24,6 +24,9 @@ mongoose.connect(`mongodb+srv://yupadhyayyk:${process.env.PASSWORD}@cluster0.uzf
     .then(() => console.log("CONNECTED TO DATABASE"))
     .catch(error => { console.log(error); })
 
+app.get("/",function(req,res){
+    res.send('Check github repo for route information');
+});
 
 app.listen(3000, function () {
     console.log("Server started on port 3000");
